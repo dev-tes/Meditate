@@ -1,0 +1,1412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04334FC927161E4600ACE9C4 /* MeditationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04334FC827161E4600ACE9C4 /* MeditationViewController.swift */; };
+		04334FCB27161ECB00ACE9C4 /* MScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04334FCA27161ECB00ACE9C4 /* MScreenExtension.swift */; };
+		04334FCD2716210700ACE9C4 /* MeditationSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04334FCC2716210700ACE9C4 /* MeditationSubViewController.swift */; };
+		046FFA07272753FD00E97767 /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046FFA06272753FD00E97767 /* CustomAlertViewController.swift */; };
+		046FFA0A27275CEF00E97767 /* CustomAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046FFA0927275CEF00E97767 /* CustomAlertContainerView.swift */; };
+		046FFA0C27275D2800E97767 /* CustomAlertBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046FFA0B27275D2800E97767 /* CustomAlertBodyLabel.swift */; };
+		046FFA0E27275D4300E97767 /* CustomAlertButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046FFA0D27275D4300E97767 /* CustomAlertButton.swift */; };
+		046FFA1027275D5F00E97767 /* CustomAlertTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046FFA0F27275D5F00E97767 /* CustomAlertTitleLabel.swift */; };
+		046FFA1227275D8800E97767 /* CustomAlertImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046FFA1127275D8800E97767 /* CustomAlertImage.swift */; };
+		046FFA1527275E5700E97767 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046FFA1427275E5700E97767 /* UIViewController+Extension.swift */; };
+		046FFA1C2729B7E800E97767 /* SettingsViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046FFA1B2729B7E800E97767 /* SettingsViewController+Extension.swift */; };
+		046FFA1F2729E6DF00E97767 /* PasswordLoginVC+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046FFA1E2729E6DF00E97767 /* PasswordLoginVC+Extension.swift */; };
+		049C60A826FE9CAE00C565CB /* OnboardingVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C60A726FE9CAE00C565CB /* OnboardingVCExtension.swift */; };
+		049C60AA26FE9D5A00C565CB /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C60A926FE9D5A00C565CB /* PageCell.swift */; };
+		049C60F7270445A700C565CB /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C60F6270445A700C565CB /* Constraints.swift */; };
+		04BAD65E270BB52400146558 /* LongestSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAD65D270BB52400146558 /* LongestSessionViewController.swift */; };
+		04BAD660270C571500146558 /* TotalMeditationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAD65F270C571500146558 /* TotalMeditationViewController.swift */; };
+		04BAD662270C982F00146558 /* TotalMeditationVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAD661270C982F00146558 /* TotalMeditationVCExtension.swift */; };
+		04BAD664270D069600146558 /* ProfileVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAD663270D069600146558 /* ProfileVCExtension.swift */; };
+		04DF2D75270A0EFC00B08A82 /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF2D74270A0EFC00B08A82 /* HomeTabBarController.swift */; };
+		04DF2D7D270A1D3D00B08A82 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF2D7C270A1D3D00B08A82 /* ProfileViewController.swift */; };
+		04DF2D7F270A5E6900B08A82 /* StressLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF2D7E270A5E6900B08A82 /* StressLevelViewController.swift */; };
+		04DF2D81270B30BF00B08A82 /* HappinessLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF2D80270B30BF00B08A82 /* HappinessLevelViewController.swift */; };
+		04DF2D83270B35BA00B08A82 /* StressDecreaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF2D82270B35BA00B08A82 /* StressDecreaseViewController.swift */; };
+		04DF2D85270B35CF00B08A82 /* FocusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF2D84270B35CF00B08A82 /* FocusViewController.swift */; };
+		04DF2D87270B35E000B08A82 /* ConsistentScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF2D86270B35E000B08A82 /* ConsistentScheduleViewController.swift */; };
+		10DA8AD788B18A782D50F7A0 /* Pods_MEDITATE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1E7997CDEE2F443C3DB03A /* Pods_MEDITATE.framework */; };
+		4C66472D26FC0FD000104AFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C66472C26FC0FD000104AFC /* AppDelegate.swift */; };
+		4C66472F26FC0FD000104AFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C66472E26FC0FD000104AFC /* SceneDelegate.swift */; };
+		4C66473926FC0FD600104AFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C66473726FC0FD600104AFC /* LaunchScreen.storyboard */; };
+		4C66474426FC0FD600104AFC /* MEDITATETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C66474326FC0FD600104AFC /* MEDITATETests.swift */; };
+		4C66474F26FC0FD600104AFC /* MEDITATEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C66474E26FC0FD600104AFC /* MEDITATEUITests.swift */; };
+		6F218F5A236C780DF07A78BE /* Pods_MEDITATE_MEDITATEUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE15191D5214453F2DA2D88 /* Pods_MEDITATE_MEDITATEUITests.framework */; };
+		B43A896326FFB60C00195A5B /* SignUpPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43A896226FFB60C00195A5B /* SignUpPasswordViewController.swift */; };
+		B461A53727147B10002C310F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B461A53627147B10002C310F /* SettingsViewController.swift */; };
+		B47F9F3A270050E900DBE904 /* SignUpValidationStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F9F39270050E900DBE904 /* SignUpValidationStyling.swift */; };
+		B47F9F3F270356E100DBE904 /* nunito-sans.regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B47F9F3C270356E100DBE904 /* nunito-sans.regular.ttf */; };
+		B47F9F40270356E100DBE904 /* nunito-sans.bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B47F9F3D270356E100DBE904 /* nunito-sans.bold.ttf */; };
+		B47F9F41270356E100DBE904 /* nunito-sans.semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B47F9F3E270356E100DBE904 /* nunito-sans.semibold.ttf */; };
+		B4928DF42708B0A400CD63EE /* OnboardingViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C66473026FC0FD000104AFC /* OnboardingViewControllerViewController.swift */; };
+		B4928DF62708B5BB00CD63EE /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4928DF52708B5BB00CD63EE /* PasswordResetViewController.swift */; };
+		B4928DFA2708BF4A00CD63EE /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4928DF92708BF4A00CD63EE /* PageModel.swift */; };
+		B4928E0F2708CE4600CD63EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4928E0E2708CE4600CD63EE /* GoogleService-Info.plist */; };
+		B4928E152708FAE700CD63EE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4928E142708FAE700CD63EE /* Model.swift */; };
+		B4928E1B2709AC6800CD63EE /* SignUpValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4928E1A2709AC6800CD63EE /* SignUpValidation.swift */; };
+		B4BE1D5D26FE67A10097A1D6 /* SignUpEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BE1D5C26FE67A10097A1D6 /* SignUpEmailViewController.swift */; };
+		CE04FF6A270F9BDF003E8235 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04FF69270F9BDF003E8235 /* HomeViewController.swift */; };
+		CE04FF6C270F9BFF003E8235 /* PictureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04FF6B270F9BFF003E8235 /* PictureCard.swift */; };
+		CE04FF6E270F9C2D003E8235 /* JobStressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04FF6D270F9C2D003E8235 /* JobStressViewController.swift */; };
+		CE04FF70270F9C58003E8235 /* JobStressCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04FF6F270F9C58003E8235 /* JobStressCollectionViewCell.swift */; };
+		CE04FF72270F9C82003E8235 /* Home+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04FF71270F9C82003E8235 /* Home+Extension.swift */; };
+		CE04FF74270F9CA9003E8235 /* JobStress+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04FF73270F9CA9003E8235 /* JobStress+Extension.swift */; };
+		CE04FF76270F9CE2003E8235 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04FF75270F9CE2003E8235 /* HomeCollectionViewCell.swift */; };
+		CE46A413270647F3007BFB48 /* AppStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46A412270647F3007BFB48 /* AppStyling.swift */; };
+		CE6011B2272AC107000E1253 /* MindJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6011B1272AC107000E1253 /* MindJournalViewController.swift */; };
+		CE6011B4272AC178000E1253 /* MindJournalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6011B3272AC178000E1253 /* MindJournalCollectionViewCell.swift */; };
+		CE6011B6272AC1C4000E1253 /* MindJournal+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6011B5272AC1C4000E1253 /* MindJournal+Extension.swift */; };
+		CE83B2F227176945009268A2 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE83B2F127176945009268A2 /* ContactUsViewController.swift */; };
+		CE83B2F6271779FF009268A2 /* ContactUsVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE83B2F5271779FF009268A2 /* ContactUsVCExtension.swift */; };
+		CE8C68F727062B55000A85FE /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C68F527062B55000A85FE /* CustomAlertView.swift */; };
+		CE8C68FC27062B93000A85FE /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C68F927062B93000A85FE /* UILabel+Extension.swift */; };
+		CE8C68FD27062B93000A85FE /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C68FA27062B93000A85FE /* UIView+Extension.swift */; };
+		CE8C68FE27062B93000A85FE /* RoundedCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C68FB27062B93000A85FE /* RoundedCornerView.swift */; };
+		CE8C690027062BE3000A85FE /* EmailLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C68FF27062BE3000A85FE /* EmailLoginViewController.swift */; };
+		CE8C690227062BF5000A85FE /* PasswordLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C690127062BF5000A85FE /* PasswordLoginViewController.swift */; };
+		CE8C6906270631E6000A85FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8C6905270631E6000A85FE /* Assets.xcassets */; };
+		CE9102F4270DDFBE00E2F299 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9102F3270DDFBE00E2F299 /* ExploreViewController.swift */; };
+		CE9102F6270DE29C00E2F299 /* ExploreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9102F5270DE29C00E2F299 /* ExploreCollectionViewCell.swift */; };
+		CE9102F8270E000700E2F299 /* ExploreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9102F7270E000700E2F299 /* ExploreData.swift */; };
+		CEA5EAD527160C280059160D /* PersonalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5EAD427160C280059160D /* PersonalDetailViewController.swift */; };
+		CEA5EAD727164B060059160D /* UpdateNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5EAD627164B060059160D /* UpdateNameViewController.swift */; };
+		CEA5EAD9271756270059160D /* EmailUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5EAD8271756270059160D /* EmailUpdateViewController.swift */; };
+		CEA5EADB271765CF0059160D /* CurrentPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5EADA271765CF0059160D /* CurrentPasswordViewController.swift */; };
+		CEA5EADD271770550059160D /* CreateNewPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5EADC271770550059160D /* CreateNewPasswordViewController.swift */; };
+		CEA5EADF271788260059160D /* CreateNewPasswordValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5EADE271788260059160D /* CreateNewPasswordValidation.swift */; };
+		CEC695692714949B00B6B56D /* PreferencesScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC695682714949B00B6B56D /* PreferencesScreenViewController.swift */; };
+		CEC6956E2714B84000B6B56D /* NotificationsScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6956D2714B84000B6B56D /* NotificationsScreenViewController.swift */; };
+		CEC695732714CA3800B6B56D /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC695722714CA3800B6B56D /* PrivacyPolicyViewController.swift */; };
+		D7FE63910F3DE2767E08E9C1 /* Pods_MEDITATETests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19FD3496537E2408446F22A /* Pods_MEDITATETests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C66474026FC0FD600104AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C66472126FC0FD000104AFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C66472826FC0FD000104AFC;
+			remoteInfo = MEDITATE;
+		};
+		4C66474B26FC0FD600104AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C66472126FC0FD000104AFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C66472826FC0FD000104AFC;
+			remoteInfo = MEDITATE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04334FC827161E4600ACE9C4 /* MeditationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationViewController.swift; sourceTree = "<group>"; };
+		04334FCA27161ECB00ACE9C4 /* MScreenExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MScreenExtension.swift; sourceTree = "<group>"; };
+		04334FCC2716210700ACE9C4 /* MeditationSubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationSubViewController.swift; sourceTree = "<group>"; };
+		046FFA06272753FD00E97767 /* CustomAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
+		046FFA0927275CEF00E97767 /* CustomAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertContainerView.swift; sourceTree = "<group>"; };
+		046FFA0B27275D2800E97767 /* CustomAlertBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertBodyLabel.swift; sourceTree = "<group>"; };
+		046FFA0D27275D4300E97767 /* CustomAlertButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertButton.swift; sourceTree = "<group>"; };
+		046FFA0F27275D5F00E97767 /* CustomAlertTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertTitleLabel.swift; sourceTree = "<group>"; };
+		046FFA1127275D8800E97767 /* CustomAlertImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertImage.swift; sourceTree = "<group>"; };
+		046FFA1427275E5700E97767 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		046FFA1B2729B7E800E97767 /* SettingsViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsViewController+Extension.swift"; sourceTree = "<group>"; };
+		046FFA1E2729E6DF00E97767 /* PasswordLoginVC+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PasswordLoginVC+Extension.swift"; sourceTree = "<group>"; };
+		049C60A726FE9CAE00C565CB /* OnboardingVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVCExtension.swift; sourceTree = "<group>"; };
+		049C60A926FE9D5A00C565CB /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		049C60F6270445A700C565CB /* Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
+		04BAD65D270BB52400146558 /* LongestSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSessionViewController.swift; sourceTree = "<group>"; };
+		04BAD65F270C571500146558 /* TotalMeditationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalMeditationViewController.swift; sourceTree = "<group>"; };
+		04BAD661270C982F00146558 /* TotalMeditationVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalMeditationVCExtension.swift; sourceTree = "<group>"; };
+		04BAD663270D069600146558 /* ProfileVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVCExtension.swift; sourceTree = "<group>"; };
+		04DF2D74270A0EFC00B08A82 /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
+		04DF2D7C270A1D3D00B08A82 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		04DF2D7E270A5E6900B08A82 /* StressLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressLevelViewController.swift; sourceTree = "<group>"; };
+		04DF2D80270B30BF00B08A82 /* HappinessLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappinessLevelViewController.swift; sourceTree = "<group>"; };
+		04DF2D82270B35BA00B08A82 /* StressDecreaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressDecreaseViewController.swift; sourceTree = "<group>"; };
+		04DF2D84270B35CF00B08A82 /* FocusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusViewController.swift; sourceTree = "<group>"; };
+		04DF2D86270B35E000B08A82 /* ConsistentScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsistentScheduleViewController.swift; sourceTree = "<group>"; };
+		0AE15191D5214453F2DA2D88 /* Pods_MEDITATE_MEDITATEUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEDITATE_MEDITATEUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		276C2EC10B56F7D201EDBCEE /* Pods-MEDITATETests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDITATETests.release.xcconfig"; path = "Target Support Files/Pods-MEDITATETests/Pods-MEDITATETests.release.xcconfig"; sourceTree = "<group>"; };
+		4C66472926FC0FD000104AFC /* MEDITATE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEDITATE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C66472C26FC0FD000104AFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C66472E26FC0FD000104AFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4C66473026FC0FD000104AFC /* OnboardingViewControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewControllerViewController.swift; sourceTree = "<group>"; };
+		4C66473826FC0FD600104AFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C66473A26FC0FD600104AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C66473F26FC0FD600104AFC /* MEDITATETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEDITATETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C66474326FC0FD600104AFC /* MEDITATETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDITATETests.swift; sourceTree = "<group>"; };
+		4C66474526FC0FD600104AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C66474A26FC0FD600104AFC /* MEDITATEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEDITATEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C66474E26FC0FD600104AFC /* MEDITATEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDITATEUITests.swift; sourceTree = "<group>"; };
+		4C66475026FC0FD600104AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528E2FD93E394F596521D673 /* Pods-MEDITATETests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDITATETests.debug.xcconfig"; path = "Target Support Files/Pods-MEDITATETests/Pods-MEDITATETests.debug.xcconfig"; sourceTree = "<group>"; };
+		60A67935DA27223939ECAA28 /* Pods-MEDITATE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDITATE.debug.xcconfig"; path = "Target Support Files/Pods-MEDITATE/Pods-MEDITATE.debug.xcconfig"; sourceTree = "<group>"; };
+		7F84FB2F0607FFBA918C875E /* Pods-MEDITATE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDITATE.release.xcconfig"; path = "Target Support Files/Pods-MEDITATE/Pods-MEDITATE.release.xcconfig"; sourceTree = "<group>"; };
+		B43A896226FFB60C00195A5B /* SignUpPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPasswordViewController.swift; sourceTree = "<group>"; };
+		B461A53627147B10002C310F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B47F9F39270050E900DBE904 /* SignUpValidationStyling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpValidationStyling.swift; sourceTree = "<group>"; };
+		B47F9F3C270356E100DBE904 /* nunito-sans.regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nunito-sans.regular.ttf"; sourceTree = "<group>"; };
+		B47F9F3D270356E100DBE904 /* nunito-sans.bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nunito-sans.bold.ttf"; sourceTree = "<group>"; };
+		B47F9F3E270356E100DBE904 /* nunito-sans.semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nunito-sans.semibold.ttf"; sourceTree = "<group>"; };
+		B4928DF52708B5BB00CD63EE /* PasswordResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
+		B4928DF92708BF4A00CD63EE /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		B4928E0E2708CE4600CD63EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B4928E142708FAE700CD63EE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B4928E1A2709AC6800CD63EE /* SignUpValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpValidation.swift; sourceTree = "<group>"; };
+		B4BE1D5C26FE67A10097A1D6 /* SignUpEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpEmailViewController.swift; sourceTree = "<group>"; };
+		C19FD3496537E2408446F22A /* Pods_MEDITATETests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEDITATETests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1E7997CDEE2F443C3DB03A /* Pods_MEDITATE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEDITATE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE04FF69270F9BDF003E8235 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CE04FF6B270F9BFF003E8235 /* PictureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCard.swift; sourceTree = "<group>"; };
+		CE04FF6D270F9C2D003E8235 /* JobStressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobStressViewController.swift; sourceTree = "<group>"; };
+		CE04FF6F270F9C58003E8235 /* JobStressCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobStressCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE04FF71270F9C82003E8235 /* Home+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home+Extension.swift"; sourceTree = "<group>"; };
+		CE04FF73270F9CA9003E8235 /* JobStress+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JobStress+Extension.swift"; sourceTree = "<group>"; };
+		CE04FF75270F9CE2003E8235 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE46A412270647F3007BFB48 /* AppStyling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStyling.swift; sourceTree = "<group>"; };
+		CE6011B1272AC107000E1253 /* MindJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindJournalViewController.swift; sourceTree = "<group>"; };
+		CE6011B3272AC178000E1253 /* MindJournalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindJournalCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE6011B5272AC1C4000E1253 /* MindJournal+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MindJournal+Extension.swift"; sourceTree = "<group>"; };
+		CE83B2F127176945009268A2 /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		CE83B2F5271779FF009268A2 /* ContactUsVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsVCExtension.swift; sourceTree = "<group>"; };
+		CE8C68F527062B55000A85FE /* CustomAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		CE8C68F927062B93000A85FE /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		CE8C68FA27062B93000A85FE /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		CE8C68FB27062B93000A85FE /* RoundedCornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornerView.swift; sourceTree = "<group>"; };
+		CE8C68FF27062BE3000A85FE /* EmailLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailLoginViewController.swift; sourceTree = "<group>"; };
+		CE8C690127062BF5000A85FE /* PasswordLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordLoginViewController.swift; sourceTree = "<group>"; };
+		CE8C6905270631E6000A85FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE9102F3270DDFBE00E2F299 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		CE9102F5270DE29C00E2F299 /* ExploreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE9102F7270E000700E2F299 /* ExploreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreData.swift; sourceTree = "<group>"; };
+		CEA5EAD427160C280059160D /* PersonalDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDetailViewController.swift; sourceTree = "<group>"; };
+		CEA5EAD627164B060059160D /* UpdateNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateNameViewController.swift; sourceTree = "<group>"; };
+		CEA5EAD8271756270059160D /* EmailUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailUpdateViewController.swift; sourceTree = "<group>"; };
+		CEA5EADA271765CF0059160D /* CurrentPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPasswordViewController.swift; sourceTree = "<group>"; };
+		CEA5EADC271770550059160D /* CreateNewPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewPasswordViewController.swift; sourceTree = "<group>"; };
+		CEA5EADE271788260059160D /* CreateNewPasswordValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewPasswordValidation.swift; sourceTree = "<group>"; };
+		CEC695682714949B00B6B56D /* PreferencesScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesScreenViewController.swift; sourceTree = "<group>"; };
+		CEC6956D2714B84000B6B56D /* NotificationsScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsScreenViewController.swift; sourceTree = "<group>"; };
+		CEC695722714CA3800B6B56D /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
+		DE3A9F04A639479BC0C7D960 /* Pods-MEDITATE-MEDITATEUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDITATE-MEDITATEUITests.release.xcconfig"; path = "Target Support Files/Pods-MEDITATE-MEDITATEUITests/Pods-MEDITATE-MEDITATEUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FEB93AA8BACBAB6EEE426968 /* Pods-MEDITATE-MEDITATEUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDITATE-MEDITATEUITests.debug.xcconfig"; path = "Target Support Files/Pods-MEDITATE-MEDITATEUITests/Pods-MEDITATE-MEDITATEUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C66472626FC0FD000104AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10DA8AD788B18A782D50F7A0 /* Pods_MEDITATE.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C66473C26FC0FD600104AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FE63910F3DE2767E08E9C1 /* Pods_MEDITATETests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C66474726FC0FD600104AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F218F5A236C780DF07A78BE /* Pods_MEDITATE_MEDITATEUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04334FC727161E2E00ACE9C4 /* MeditationScreens */ = {
+			isa = PBXGroup;
+			children = (
+				04334FC827161E4600ACE9C4 /* MeditationViewController.swift */,
+				04334FCA27161ECB00ACE9C4 /* MScreenExtension.swift */,
+				04334FCC2716210700ACE9C4 /* MeditationSubViewController.swift */,
+			);
+			path = MeditationScreens;
+			sourceTree = "<group>";
+		};
+		046FFA05272753D600E97767 /* CustomAlert */ = {
+			isa = PBXGroup;
+			children = (
+				046FFA1327275E3B00E97767 /* Extensions */,
+				046FFA0827275C6800E97767 /* Reusables */,
+				046FFA06272753FD00E97767 /* CustomAlertViewController.swift */,
+			);
+			path = CustomAlert;
+			sourceTree = "<group>";
+		};
+		046FFA0827275C6800E97767 /* Reusables */ = {
+			isa = PBXGroup;
+			children = (
+				046FFA0927275CEF00E97767 /* CustomAlertContainerView.swift */,
+				046FFA0B27275D2800E97767 /* CustomAlertBodyLabel.swift */,
+				046FFA0D27275D4300E97767 /* CustomAlertButton.swift */,
+				046FFA0F27275D5F00E97767 /* CustomAlertTitleLabel.swift */,
+				046FFA1127275D8800E97767 /* CustomAlertImage.swift */,
+			);
+			path = Reusables;
+			sourceTree = "<group>";
+		};
+		046FFA1327275E3B00E97767 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				046FFA1427275E5700E97767 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		046FFA1A2729B7CA00E97767 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				046FFA1B2729B7E800E97767 /* SettingsViewController+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		046FFA1D2729E6C400E97767 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				046FFA1E2729E6DF00E97767 /* PasswordLoginVC+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		04DF2D732709FD5300B08A82 /* ProfileScreens */ = {
+			isa = PBXGroup;
+			children = (
+				04DF2D74270A0EFC00B08A82 /* HomeTabBarController.swift */,
+				04DF2D7C270A1D3D00B08A82 /* ProfileViewController.swift */,
+				04DF2D7E270A5E6900B08A82 /* StressLevelViewController.swift */,
+				04DF2D80270B30BF00B08A82 /* HappinessLevelViewController.swift */,
+				04DF2D82270B35BA00B08A82 /* StressDecreaseViewController.swift */,
+				04DF2D84270B35CF00B08A82 /* FocusViewController.swift */,
+				04DF2D86270B35E000B08A82 /* ConsistentScheduleViewController.swift */,
+				04BAD65D270BB52400146558 /* LongestSessionViewController.swift */,
+				04BAD65F270C571500146558 /* TotalMeditationViewController.swift */,
+				04BAD661270C982F00146558 /* TotalMeditationVCExtension.swift */,
+				04BAD663270D069600146558 /* ProfileVCExtension.swift */,
+			);
+			path = ProfileScreens;
+			sourceTree = "<group>";
+		};
+		4C66472026FC0FD000104AFC = {
+			isa = PBXGroup;
+			children = (
+				4C66472B26FC0FD000104AFC /* MEDITATE */,
+				4C66474226FC0FD600104AFC /* MEDITATETests */,
+				4C66474D26FC0FD600104AFC /* MEDITATEUITests */,
+				4C66472A26FC0FD000104AFC /* Products */,
+				5A03FB478988BD49C11F8A90 /* Pods */,
+				D47DAD641EAC14081243BEC7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C66472A26FC0FD000104AFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C66472926FC0FD000104AFC /* MEDITATE.app */,
+				4C66473F26FC0FD600104AFC /* MEDITATETests.xctest */,
+				4C66474A26FC0FD600104AFC /* MEDITATEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C66472B26FC0FD000104AFC /* MEDITATE */ = {
+			isa = PBXGroup;
+			children = (
+				046FFA05272753D600E97767 /* CustomAlert */,
+				CE83B2F027176905009268A2 /* ContactUsScreen */,
+				CEA5EAD027160BAE0059160D /* PersonalDetailScreens */,
+				04334FC727161E2E00ACE9C4 /* MeditationScreens */,
+				B461A53527147AA8002C310F /* SettingScreen */,
+				CEC6956F2714C9FC00B6B56D /* PrivacyPolicyScreen */,
+				CEC6956A2714B81600B6B56D /* NotificationsScreen */,
+				CEC69565271493FE00B6B56D /* PreferencesScreen */,
+				CE04FF68270F9BC9003E8235 /* HomeScreen */,
+				04DF2D732709FD5300B08A82 /* ProfileScreens */,
+				B4928E0C2708C5E600CD63EE /* LaunchScreen */,
+				B4928E0B2708C5A500CD63EE /* Resources */,
+				B4928E072708C45A00CD63EE /* PasswordResetScreen */,
+				B4928E022708C2B800CD63EE /* SignInScreen */,
+				CE9102F2270DDF5900E2F299 /* ExploreScreen */,
+				B4928DFD2708C09E00CD63EE /* SignUpScreen */,
+				B4928DF72708BECF00CD63EE /* OnboardingScreen */,
+				CE46A4142708A2F8007BFB48 /* AppDelegate */,
+				CE8C68F827062B81000A85FE /* Helpers */,
+				B47F9F3B270355F100DBE904 /* Fonts */,
+				4C66473A26FC0FD600104AFC /* Info.plist */,
+				B4928E0E2708CE4600CD63EE /* GoogleService-Info.plist */,
+			);
+			path = MEDITATE;
+			sourceTree = "<group>";
+		};
+		4C66474226FC0FD600104AFC /* MEDITATETests */ = {
+			isa = PBXGroup;
+			children = (
+				4C66474326FC0FD600104AFC /* MEDITATETests.swift */,
+				4C66474526FC0FD600104AFC /* Info.plist */,
+			);
+			path = MEDITATETests;
+			sourceTree = "<group>";
+		};
+		4C66474D26FC0FD600104AFC /* MEDITATEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C66474E26FC0FD600104AFC /* MEDITATEUITests.swift */,
+				4C66475026FC0FD600104AFC /* Info.plist */,
+			);
+			path = MEDITATEUITests;
+			sourceTree = "<group>";
+		};
+		5A03FB478988BD49C11F8A90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60A67935DA27223939ECAA28 /* Pods-MEDITATE.debug.xcconfig */,
+				7F84FB2F0607FFBA918C875E /* Pods-MEDITATE.release.xcconfig */,
+				FEB93AA8BACBAB6EEE426968 /* Pods-MEDITATE-MEDITATEUITests.debug.xcconfig */,
+				DE3A9F04A639479BC0C7D960 /* Pods-MEDITATE-MEDITATEUITests.release.xcconfig */,
+				528E2FD93E394F596521D673 /* Pods-MEDITATETests.debug.xcconfig */,
+				276C2EC10B56F7D201EDBCEE /* Pods-MEDITATETests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B42910572715FED60065FFC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				046FFA1A2729B7CA00E97767 /* Extension */,
+				B42910582715FEE20065FFC0 /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B42910582715FEE20065FFC0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B461A53627147B10002C310F /* SettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B461A53527147AA8002C310F /* SettingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B42910572715FED60065FFC0 /* Views */,
+			);
+			path = SettingScreen;
+			sourceTree = "<group>";
+		};
+		B47F9F3B270355F100DBE904 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B47F9F3D270356E100DBE904 /* nunito-sans.bold.ttf */,
+				B47F9F3C270356E100DBE904 /* nunito-sans.regular.ttf */,
+				B47F9F3E270356E100DBE904 /* nunito-sans.semibold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B4928DF72708BECF00CD63EE /* OnboardingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B4928DFC2708C04D00CD63EE /* Model */,
+				B4928DF82708BEFC00CD63EE /* Views */,
+			);
+			path = OnboardingScreen;
+			sourceTree = "<group>";
+		};
+		B4928DF82708BEFC00CD63EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4928DFB2708BFE300CD63EE /* Cell */,
+				4C66473026FC0FD000104AFC /* OnboardingViewControllerViewController.swift */,
+				049C60A726FE9CAE00C565CB /* OnboardingVCExtension.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B4928DFB2708BFE300CD63EE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				049C60A926FE9D5A00C565CB /* PageCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B4928DFC2708C04D00CD63EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4928DF92708BF4A00CD63EE /* PageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4928DFD2708C09E00CD63EE /* SignUpScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B4928E002708C13100CD63EE /* ViewModel */,
+				B4928DFF2708C11C00CD63EE /* Model */,
+				B4928DFE2708C10A00CD63EE /* Views */,
+			);
+			path = SignUpScreen;
+			sourceTree = "<group>";
+		};
+		B4928DFE2708C10A00CD63EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4928E012708C15100CD63EE /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B4928DFF2708C11C00CD63EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4928E142708FAE700CD63EE /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4928E002708C13100CD63EE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B4928E012708C15100CD63EE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B43A896226FFB60C00195A5B /* SignUpPasswordViewController.swift */,
+				B4BE1D5C26FE67A10097A1D6 /* SignUpEmailViewController.swift */,
+				B4928E1A2709AC6800CD63EE /* SignUpValidation.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B4928E022708C2B800CD63EE /* SignInScreen */ = {
+			isa = PBXGroup;
+			children = (
+				046FFA1D2729E6C400E97767 /* Extension */,
+				B4928E042708C2F300CD63EE /* Views */,
+			);
+			path = SignInScreen;
+			sourceTree = "<group>";
+		};
+		B4928E042708C2F300CD63EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4928E062708C34200CD63EE /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B4928E062708C34200CD63EE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE8C690127062BF5000A85FE /* PasswordLoginViewController.swift */,
+				CE8C68FF27062BE3000A85FE /* EmailLoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B4928E072708C45A00CD63EE /* PasswordResetScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CE8C68F327062AE8000A85FE /* Views */,
+			);
+			path = PasswordResetScreen;
+			sourceTree = "<group>";
+		};
+		B4928E092708C54D00CD63EE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B4928DF52708B5BB00CD63EE /* PasswordResetViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B4928E0A2708C56700CD63EE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CE8C68F527062B55000A85FE /* CustomAlertView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B4928E0B2708C5A500CD63EE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE8C6905270631E6000A85FE /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B4928E0C2708C5E600CD63EE /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B4928E0D2708C60700CD63EE /* Views */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		B4928E0D2708C60700CD63EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C66473726FC0FD600104AFC /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE04FF68270F9BC9003E8235 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CE04FF69270F9BDF003E8235 /* HomeViewController.swift */,
+				CE04FF6B270F9BFF003E8235 /* PictureCard.swift */,
+				CE04FF6D270F9C2D003E8235 /* JobStressViewController.swift */,
+				CE04FF6F270F9C58003E8235 /* JobStressCollectionViewCell.swift */,
+				CE04FF71270F9C82003E8235 /* Home+Extension.swift */,
+				CE04FF73270F9CA9003E8235 /* JobStress+Extension.swift */,
+				CE04FF75270F9CE2003E8235 /* HomeCollectionViewCell.swift */,
+				CE6011B1272AC107000E1253 /* MindJournalViewController.swift */,
+				CE6011B3272AC178000E1253 /* MindJournalCollectionViewCell.swift */,
+				CE6011B5272AC1C4000E1253 /* MindJournal+Extension.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		CE46A4142708A2F8007BFB48 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4C66472E26FC0FD000104AFC /* SceneDelegate.swift */,
+				4C66472C26FC0FD000104AFC /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CE83B2F027176905009268A2 /* ContactUsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CE83B2F127176945009268A2 /* ContactUsViewController.swift */,
+				CE83B2F5271779FF009268A2 /* ContactUsVCExtension.swift */,
+			);
+			path = ContactUsScreen;
+			sourceTree = "<group>";
+		};
+		CE8C68F327062AE8000A85FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4928E0A2708C56700CD63EE /* Cells */,
+				B4928E092708C54D00CD63EE /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE8C68F827062B81000A85FE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				049C60F6270445A700C565CB /* Constraints.swift */,
+				CE46A412270647F3007BFB48 /* AppStyling.swift */,
+				CE8C68FB27062B93000A85FE /* RoundedCornerView.swift */,
+				CE8C68F927062B93000A85FE /* UILabel+Extension.swift */,
+				CE8C68FA27062B93000A85FE /* UIView+Extension.swift */,
+				B47F9F39270050E900DBE904 /* SignUpValidationStyling.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CE9102F2270DDF5900E2F299 /* ExploreScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CE9102FB270E096100E2F299 /* Model */,
+				CE9102FC270E097100E2F299 /* Views */,
+			);
+			path = ExploreScreen;
+			sourceTree = "<group>";
+		};
+		CE9102FB270E096100E2F299 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE9102F7270E000700E2F299 /* ExploreData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE9102FC270E097100E2F299 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE9102F3270DDFBE00E2F299 /* ExploreViewController.swift */,
+				CE9102F5270DE29C00E2F299 /* ExploreCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEA5EAD027160BAE0059160D /* PersonalDetailScreens */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5EAD127160BE50059160D /* Views */,
+			);
+			path = PersonalDetailScreens;
+			sourceTree = "<group>";
+		};
+		CEA5EAD127160BE50059160D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5EAD427160C280059160D /* PersonalDetailViewController.swift */,
+				CEA5EAD627164B060059160D /* UpdateNameViewController.swift */,
+				CEA5EAD8271756270059160D /* EmailUpdateViewController.swift */,
+				CEA5EADA271765CF0059160D /* CurrentPasswordViewController.swift */,
+				CEA5EADC271770550059160D /* CreateNewPasswordViewController.swift */,
+				CEA5EADE271788260059160D /* CreateNewPasswordValidation.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEC69565271493FE00B6B56D /* PreferencesScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CEC695662714941200B6B56D /* Views */,
+			);
+			path = PreferencesScreen;
+			sourceTree = "<group>";
+		};
+		CEC695662714941200B6B56D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEC695672714941E00B6B56D /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEC695672714941E00B6B56D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEC695682714949B00B6B56D /* PreferencesScreenViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CEC6956A2714B81600B6B56D /* NotificationsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6956B2714B82300B6B56D /* Views */,
+			);
+			path = NotificationsScreen;
+			sourceTree = "<group>";
+		};
+		CEC6956B2714B82300B6B56D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6956C2714B82B00B6B56D /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEC6956C2714B82B00B6B56D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6956D2714B84000B6B56D /* NotificationsScreenViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CEC6956F2714C9FC00B6B56D /* PrivacyPolicyScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CEC695702714CA0600B6B56D /* Views */,
+			);
+			path = PrivacyPolicyScreen;
+			sourceTree = "<group>";
+		};
+		CEC695702714CA0600B6B56D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEC695712714CA0D00B6B56D /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEC695712714CA0D00B6B56D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEC695722714CA3800B6B56D /* PrivacyPolicyViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D47DAD641EAC14081243BEC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA1E7997CDEE2F443C3DB03A /* Pods_MEDITATE.framework */,
+				0AE15191D5214453F2DA2D88 /* Pods_MEDITATE_MEDITATEUITests.framework */,
+				C19FD3496537E2408446F22A /* Pods_MEDITATETests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C66472826FC0FD000104AFC /* MEDITATE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C66475326FC0FD600104AFC /* Build configuration list for PBXNativeTarget "MEDITATE" */;
+			buildPhases = (
+				33F658455F910296F96A1359 /* [CP] Check Pods Manifest.lock */,
+				4C66475C26FC11AC00104AFC /* ShellScript */,
+				4C66472526FC0FD000104AFC /* Sources */,
+				4C66472626FC0FD000104AFC /* Frameworks */,
+				4C66472726FC0FD000104AFC /* Resources */,
+				6B7DAD43398785F8ECC067CA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MEDITATE;
+			productName = MEDITATE;
+			productReference = 4C66472926FC0FD000104AFC /* MEDITATE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C66473E26FC0FD600104AFC /* MEDITATETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C66475626FC0FD600104AFC /* Build configuration list for PBXNativeTarget "MEDITATETests" */;
+			buildPhases = (
+				EE7DD0A3CC865C001D38130C /* [CP] Check Pods Manifest.lock */,
+				4C66473B26FC0FD600104AFC /* Sources */,
+				4C66473C26FC0FD600104AFC /* Frameworks */,
+				4C66473D26FC0FD600104AFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C66474126FC0FD600104AFC /* PBXTargetDependency */,
+			);
+			name = MEDITATETests;
+			productName = MEDITATETests;
+			productReference = 4C66473F26FC0FD600104AFC /* MEDITATETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C66474926FC0FD600104AFC /* MEDITATEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C66475926FC0FD600104AFC /* Build configuration list for PBXNativeTarget "MEDITATEUITests" */;
+			buildPhases = (
+				B01120BCEA93CF8002210954 /* [CP] Check Pods Manifest.lock */,
+				4C66474626FC0FD600104AFC /* Sources */,
+				4C66474726FC0FD600104AFC /* Frameworks */,
+				4C66474826FC0FD600104AFC /* Resources */,
+				61689C2FFD2B2AB8423852D5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C66474C26FC0FD600104AFC /* PBXTargetDependency */,
+			);
+			name = MEDITATEUITests;
+			productName = MEDITATEUITests;
+			productReference = 4C66474A26FC0FD600104AFC /* MEDITATEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C66472126FC0FD000104AFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4C66472826FC0FD000104AFC = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					4C66473E26FC0FD600104AFC = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 4C66472826FC0FD000104AFC;
+					};
+					4C66474926FC0FD600104AFC = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 4C66472826FC0FD000104AFC;
+					};
+				};
+			};
+			buildConfigurationList = 4C66472426FC0FD000104AFC /* Build configuration list for PBXProject "MEDITATE" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C66472026FC0FD000104AFC;
+			productRefGroup = 4C66472A26FC0FD000104AFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C66472826FC0FD000104AFC /* MEDITATE */,
+				4C66473E26FC0FD600104AFC /* MEDITATETests */,
+				4C66474926FC0FD600104AFC /* MEDITATEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C66472726FC0FD000104AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47F9F3F270356E100DBE904 /* nunito-sans.regular.ttf in Resources */,
+				4C66473926FC0FD600104AFC /* LaunchScreen.storyboard in Resources */,
+				B47F9F40270356E100DBE904 /* nunito-sans.bold.ttf in Resources */,
+				CE8C6906270631E6000A85FE /* Assets.xcassets in Resources */,
+				B47F9F41270356E100DBE904 /* nunito-sans.semibold.ttf in Resources */,
+				B4928E0F2708CE4600CD63EE /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C66473D26FC0FD600104AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C66474826FC0FD600104AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33F658455F910296F96A1359 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MEDITATE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C66475C26FC11AC00104AFC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		61689C2FFD2B2AB8423852D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MEDITATE-MEDITATEUITests/Pods-MEDITATE-MEDITATEUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MEDITATE-MEDITATEUITests/Pods-MEDITATE-MEDITATEUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MEDITATE-MEDITATEUITests/Pods-MEDITATE-MEDITATEUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B7DAD43398785F8ECC067CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MEDITATE/Pods-MEDITATE-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MEDITATE/Pods-MEDITATE-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MEDITATE/Pods-MEDITATE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B01120BCEA93CF8002210954 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MEDITATE-MEDITATEUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE7DD0A3CC865C001D38130C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MEDITATETests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C66472526FC0FD000104AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046FFA1527275E5700E97767 /* UIViewController+Extension.swift in Sources */,
+				B4928DF42708B0A400CD63EE /* OnboardingViewControllerViewController.swift in Sources */,
+				04DF2D85270B35CF00B08A82 /* FocusViewController.swift in Sources */,
+				CE9102F8270E000700E2F299 /* ExploreData.swift in Sources */,
+				CE04FF70270F9C58003E8235 /* JobStressCollectionViewCell.swift in Sources */,
+				CEA5EAD9271756270059160D /* EmailUpdateViewController.swift in Sources */,
+				B47F9F3A270050E900DBE904 /* SignUpValidationStyling.swift in Sources */,
+				CEA5EADD271770550059160D /* CreateNewPasswordViewController.swift in Sources */,
+				CEA5EADB271765CF0059160D /* CurrentPasswordViewController.swift in Sources */,
+				04DF2D75270A0EFC00B08A82 /* HomeTabBarController.swift in Sources */,
+				CE04FF6A270F9BDF003E8235 /* HomeViewController.swift in Sources */,
+				CEA5EAD527160C280059160D /* PersonalDetailViewController.swift in Sources */,
+				CE8C68FD27062B93000A85FE /* UIView+Extension.swift in Sources */,
+				CEC6956E2714B84000B6B56D /* NotificationsScreenViewController.swift in Sources */,
+				CEA5EAD727164B060059160D /* UpdateNameViewController.swift in Sources */,
+				CE8C68F727062B55000A85FE /* CustomAlertView.swift in Sources */,
+				04BAD662270C982F00146558 /* TotalMeditationVCExtension.swift in Sources */,
+				B4928DFA2708BF4A00CD63EE /* PageModel.swift in Sources */,
+				04DF2D7D270A1D3D00B08A82 /* ProfileViewController.swift in Sources */,
+				CE9102F4270DDFBE00E2F299 /* ExploreViewController.swift in Sources */,
+				B4BE1D5D26FE67A10097A1D6 /* SignUpEmailViewController.swift in Sources */,
+				046FFA1C2729B7E800E97767 /* SettingsViewController+Extension.swift in Sources */,
+				CE6011B2272AC107000E1253 /* MindJournalViewController.swift in Sources */,
+				CE8C690227062BF5000A85FE /* PasswordLoginViewController.swift in Sources */,
+				046FFA1027275D5F00E97767 /* CustomAlertTitleLabel.swift in Sources */,
+				04BAD660270C571500146558 /* TotalMeditationViewController.swift in Sources */,
+				04334FCD2716210700ACE9C4 /* MeditationSubViewController.swift in Sources */,
+				4C66472D26FC0FD000104AFC /* AppDelegate.swift in Sources */,
+				CE04FF74270F9CA9003E8235 /* JobStress+Extension.swift in Sources */,
+				CEA5EADF271788260059160D /* CreateNewPasswordValidation.swift in Sources */,
+				046FFA0C27275D2800E97767 /* CustomAlertBodyLabel.swift in Sources */,
+				B43A896326FFB60C00195A5B /* SignUpPasswordViewController.swift in Sources */,
+				04DF2D83270B35BA00B08A82 /* StressDecreaseViewController.swift in Sources */,
+				CE46A413270647F3007BFB48 /* AppStyling.swift in Sources */,
+				046FFA1F2729E6DF00E97767 /* PasswordLoginVC+Extension.swift in Sources */,
+				049C60AA26FE9D5A00C565CB /* PageCell.swift in Sources */,
+				046FFA1227275D8800E97767 /* CustomAlertImage.swift in Sources */,
+				04BAD664270D069600146558 /* ProfileVCExtension.swift in Sources */,
+				CE04FF72270F9C82003E8235 /* Home+Extension.swift in Sources */,
+				046FFA07272753FD00E97767 /* CustomAlertViewController.swift in Sources */,
+				046FFA0E27275D4300E97767 /* CustomAlertButton.swift in Sources */,
+				CEC695692714949B00B6B56D /* PreferencesScreenViewController.swift in Sources */,
+				04DF2D81270B30BF00B08A82 /* HappinessLevelViewController.swift in Sources */,
+				04334FCB27161ECB00ACE9C4 /* MScreenExtension.swift in Sources */,
+				CE6011B4272AC178000E1253 /* MindJournalCollectionViewCell.swift in Sources */,
+				CE8C68FC27062B93000A85FE /* UILabel+Extension.swift in Sources */,
+				CE8C690027062BE3000A85FE /* EmailLoginViewController.swift in Sources */,
+				04DF2D7F270A5E6900B08A82 /* StressLevelViewController.swift in Sources */,
+				049C60F7270445A700C565CB /* Constraints.swift in Sources */,
+				CE83B2F227176945009268A2 /* ContactUsViewController.swift in Sources */,
+				04334FC927161E4600ACE9C4 /* MeditationViewController.swift in Sources */,
+				CE04FF6C270F9BFF003E8235 /* PictureCard.swift in Sources */,
+				B4928E1B2709AC6800CD63EE /* SignUpValidation.swift in Sources */,
+				B4928E152708FAE700CD63EE /* Model.swift in Sources */,
+				4C66472F26FC0FD000104AFC /* SceneDelegate.swift in Sources */,
+				CE6011B6272AC1C4000E1253 /* MindJournal+Extension.swift in Sources */,
+				04DF2D87270B35E000B08A82 /* ConsistentScheduleViewController.swift in Sources */,
+				B461A53727147B10002C310F /* SettingsViewController.swift in Sources */,
+				CE9102F6270DE29C00E2F299 /* ExploreCollectionViewCell.swift in Sources */,
+				049C60A826FE9CAE00C565CB /* OnboardingVCExtension.swift in Sources */,
+				B4928DF62708B5BB00CD63EE /* PasswordResetViewController.swift in Sources */,
+				CE04FF76270F9CE2003E8235 /* HomeCollectionViewCell.swift in Sources */,
+				04BAD65E270BB52400146558 /* LongestSessionViewController.swift in Sources */,
+				CEC695732714CA3800B6B56D /* PrivacyPolicyViewController.swift in Sources */,
+				CE04FF6E270F9C2D003E8235 /* JobStressViewController.swift in Sources */,
+				CE8C68FE27062B93000A85FE /* RoundedCornerView.swift in Sources */,
+				CE83B2F6271779FF009268A2 /* ContactUsVCExtension.swift in Sources */,
+				046FFA0A27275CEF00E97767 /* CustomAlertContainerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C66473B26FC0FD600104AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C66474426FC0FD600104AFC /* MEDITATETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C66474626FC0FD600104AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C66474F26FC0FD600104AFC /* MEDITATEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C66474126FC0FD600104AFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C66472826FC0FD000104AFC /* MEDITATE */;
+			targetProxy = 4C66474026FC0FD600104AFC /* PBXContainerItemProxy */;
+		};
+		4C66474C26FC0FD600104AFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C66472826FC0FD000104AFC /* MEDITATE */;
+			targetProxy = 4C66474B26FC0FD600104AFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C66473726FC0FD600104AFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C66473826FC0FD600104AFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C66475126FC0FD600104AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C66475226FC0FD600104AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C66475426FC0FD600104AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60A67935DA27223939ECAA28 /* Pods-MEDITATE.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MEDITATE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.decagon.MEDITATE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C66475526FC0FD600104AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F84FB2F0607FFBA918C875E /* Pods-MEDITATE.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MEDITATE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.decagon.MEDITATE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C66475726FC0FD600104AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 528E2FD93E394F596521D673 /* Pods-MEDITATETests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MEDITATETests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.decagon.MEDITATETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MEDITATE.app/MEDITATE";
+			};
+			name = Debug;
+		};
+		4C66475826FC0FD600104AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 276C2EC10B56F7D201EDBCEE /* Pods-MEDITATETests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MEDITATETests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.decagon.MEDITATETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MEDITATE.app/MEDITATE";
+			};
+			name = Release;
+		};
+		4C66475A26FC0FD600104AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEB93AA8BACBAB6EEE426968 /* Pods-MEDITATE-MEDITATEUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MEDITATEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.decagon.MEDITATEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MEDITATE;
+			};
+			name = Debug;
+		};
+		4C66475B26FC0FD600104AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE3A9F04A639479BC0C7D960 /* Pods-MEDITATE-MEDITATEUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MEDITATEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.decagon.MEDITATEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MEDITATE;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C66472426FC0FD000104AFC /* Build configuration list for PBXProject "MEDITATE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C66475126FC0FD600104AFC /* Debug */,
+				4C66475226FC0FD600104AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C66475326FC0FD600104AFC /* Build configuration list for PBXNativeTarget "MEDITATE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C66475426FC0FD600104AFC /* Debug */,
+				4C66475526FC0FD600104AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C66475626FC0FD600104AFC /* Build configuration list for PBXNativeTarget "MEDITATETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C66475726FC0FD600104AFC /* Debug */,
+				4C66475826FC0FD600104AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C66475926FC0FD600104AFC /* Build configuration list for PBXNativeTarget "MEDITATEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C66475A26FC0FD600104AFC /* Debug */,
+				4C66475B26FC0FD600104AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C66472126FC0FD000104AFC /* Project object */;
+}

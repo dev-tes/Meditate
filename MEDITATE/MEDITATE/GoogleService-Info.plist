@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>308344120517-ii65t4elneiej6lj0mqp2378ipm3b7br.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.308344120517-ii65t4elneiej6lj0mqp2378ipm3b7br</string>
+	<key>API_KEY</key>
+	<string>AIzaSyARbEiZGZkzHA7yrHx1228WILSXbop14jU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>308344120517</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.decagon.MEDITATE</string>
+	<key>PROJECT_ID</key>
+	<string>meditate-a0810</string>
+	<key>STORAGE_BUCKET</key>
+	<string>meditate-a0810.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:308344120517:ios:f95a7b0aa7caddb032fcac</string>
+</dict>
+</plist>
